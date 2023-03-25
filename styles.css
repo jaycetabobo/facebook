@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(240,242,245);
+}
+header{
+    background-color: white;
+}
+.center{
+    height: 85vh;
+}
+.main{
+    height: 85vh;
+}
+.footer{
+    height: 8vh;
+}
+header .fa-facebook{
+    color: rgb(15,144,243);
+}
+header i{
+    color: black;
+}
+header .text-primary{
+    color: rgb(15,144,243);
+    font-weight: bold;
+}
+.facebookleft a i{
+    background-color: rgb(240,242,245);
+    border-radius: 20px;
+    padding: 8px;
+    margin: 2px;
+}
+header .facebook2nd a:hover{
+    background-color: rgb(240,242,245);
+    cursor: pointer;
+}
+
+header .facebook2nd>.text-primary,.border-bottom-2{
+    color: rgb(15,144,243);
+}
+.input[type=search]{
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    color: gray;
+    background-color: rgb(240,242,245);
+}
