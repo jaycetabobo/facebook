@@ -43,3 +43,12 @@ header .facebook2nd>.text-primary,.border-bottom-2{
     color: gray;
     background-color: rgb(240,242,245);
 }
+.story{
+    height: 160px;
+}
+.fa-circle-plus{
+    font-size: 28px;
+}
+.card-text{
+    font-size: 12px;
+}
