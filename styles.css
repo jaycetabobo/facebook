@@ -10,9 +10,7 @@ header{
 .main{
     height: 85vh;
 }
-.footer{
-    height: 8vh;
-}
+
 header .fa-facebook{
     color: rgb(15,144,243);
 }
@@ -68,4 +66,33 @@ header .facebook2nd>.text-primary,.border-bottom-2{
     line-height: 1;
     font-weight: bold;
     justify-content: center;
+}
+.contentheadertext{
+    font-weight: bold;
+    font-size: 13px;
+}
+.fa-circle-check{
+    color: rgb(23,113,230);
+}
+.contentheadertext2{
+    font-size: 11px;
+}
+.contentmenu{
+    color: white;
+}
+.fa-ellipsis, .fa-comment{
+    color: black;
+}
+.contentcard, .card-header, .card-footer{
+    border-color: white;
+    background-color: white;
+}
+.fa-heart{
+    color: rgb(252,91,118);
+}
+.hb{
+    color: white;
+}
+.card-footer, .footer{
+    height: 40px;
 }
