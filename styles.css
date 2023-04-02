@@ -10,7 +10,9 @@ header{
 .leftsidebar{
     height: 85vh;
 }
-
+.rightsidebar{
+    height: 85vh;
+}
 header .fa-facebook{
     color: rgb(15,144,243);
 }
@@ -139,4 +141,7 @@ header .facebook2nd>.text-primary,.border-bottom-2{
     color: rgb(113,115,119);
     justify-content: center;
     display: flex;
+}
+.rightsidebar img{
+    max-width: 30px;
 }
