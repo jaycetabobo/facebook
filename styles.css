@@ -99,8 +99,12 @@ header .facebook2nd>.text-primary,.border-bottom-2{
 .fa-facebook{
     font-size: 40px;
 }
-.headerright .icon{
+.headerright a{
     background-color: rgb(228,230,235);
+}
+.headerright a:hover{
+    background-color: rgb(101,103,107);
+    cursor: pointer;
 }
 .headerright i{
     font-size: 20px;
@@ -108,12 +112,12 @@ header .facebook2nd>.text-primary,.border-bottom-2{
 .leftsidebar img{
     max-width: 30px;
 }
-.leftsidebar a{
+.leftsidebar a, .rightsidebar a{
     color: black;
     font-size: 15px;
     font-weight: 500;
 }
-.leftsidebar a:hover{
+.leftsidebar a:hover, .rightsidebar a:hover{
     border-radius: 10px;
     cursor: pointer;
     background-color: rgb(228,230,233);
@@ -123,4 +127,16 @@ header .facebook2nd>.text-primary,.border-bottom-2{
 }
 .leftsidebar .dropdown{
     color: rgb(216,218,223);
+}
+.rightsidebar h6{
+    font-weight: 700;
+    color: rgb(113,115,119);
+}
+.rightsidebar .fa-gift{
+    color: rgb(32,160,250);
+}
+.rightsidebar .contactsection i{
+    color: rgb(113,115,119);
+    justify-content: center;
+    display: flex;
 }
