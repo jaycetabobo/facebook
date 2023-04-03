@@ -7,11 +7,22 @@ body a{
 header{
     background-color: white;
 }
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
 .leftsidebar{
-    height: 85vh;
+    height: 90vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 .rightsidebar{
-    height: 85vh;
+    height: 90vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 header .fa-facebook{
     color: rgb(15,144,243);
@@ -96,7 +107,7 @@ header .facebook2nd .active i{
     color: rgb(252,91,118);
 }
 .hb{
-    color: white;
+    color: black;
 }
 .card-footer, .footer{
     height: 40px;
@@ -210,4 +221,13 @@ main .headerstory .nonactive{
 }
 .smheaderdropdown{
     min-width: 115px;
+}
+.offcanvas-body{
+    background-color: rgb(240,242,245);
+}
+.offcanvas-body a i{
+    font-size: 20px;
+}
+.offcanvas{
+    min-height: 310px;
 }
