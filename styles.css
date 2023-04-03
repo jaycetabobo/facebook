@@ -34,8 +34,11 @@ header .facebook2nd a:hover{
     cursor: pointer;
     border-radius: 10px;
 }
+header .facebook2nd .active{
+    pointer-events: none;
+}
 
-header .facebook2nd>.text-primary,.border-bottom-2{
+header .facebook2nd .active i{
     color: rgb(15,144,243);
 }
 .input[type=search]{
@@ -108,11 +111,14 @@ header .facebook2nd>.text-primary,.border-bottom-2{
     background-color: rgb(101,103,107);
     cursor: pointer;
 }
+header .navbar form input{
+    background-color: rgb(240,242,245);
+}
 .headerright i{
     font-size: 20px;
 }
-.leftsidebar img{
-    max-width: 30px;
+.leftsidebar a img{
+    max-width: 40px;
 }
 .leftsidebar a, .rightsidebar a{
     color: black;
@@ -131,7 +137,8 @@ header .facebook2nd>.text-primary,.border-bottom-2{
     color: rgb(216,218,223);
 }
 .rightsidebar h6{
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 17px;
     color: rgb(113,115,119);
 }
 .rightsidebar .fa-gift{
@@ -144,4 +151,63 @@ header .facebook2nd>.text-primary,.border-bottom-2{
 }
 .rightsidebar img{
     max-width: 30px;
+}
+main .searchbarlg img{
+    max-width: 40px;
+}
+main .searchbarlg a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
+main .searchbarlg .fa-video{
+    color: rgb(240,40,73);
+}
+main .searchbarlg .fa-image{
+    color: rgb(69,189,98);
+}
+main .searchbarlg .fa-face-smile{
+    color: rgb(247,185,40);
+}
+main .searchbarlg form input:hover, main .searchbarlg .row a:hover{
+    background-color: rgb(216,218,223);
+    border-radius: 5px;
+}
+main .searchbarlg form input{
+    background-color: rgb(240,242,245);
+}
+main .headerstory .active{
+    font-weight: 600;
+}
+main .headerstory .nonactive{
+    font-weight: 600;
+    color: rgb(96,98,102);
+}
+.postcontent img{
+    cursor: pointer;
+}
+.leftsidebar #asidecollapse .card, .leftsidebar #asidecollapsebottom .card{
+    background-color: rgb(240,242,245);
+    border-color: rgb(240,242,245);
+}
+.leftsidebar h6{
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(113,115,119);
+}
+.leftsidebar img{
+    max-width: 30px;
+}
+.leftsidebar i{
+    font-size: 25px;
+}
+.smheaderdropdown a i{
+    background-color: white;
+}
+.smheaderdropdown li:hover, .smheaderdropdown li a i:hover{
+    background-color: rgb(240,242,245);
+}
+.smheaderdropdown{
+    min-width: 115px;
 }
