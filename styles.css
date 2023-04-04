@@ -1,13 +1,12 @@
 body{
     background-color: rgb(240,242,245);
+    
 }
 body a{
     text-decoration: none;
 }
 header{
     background-color: white;
-}
-header {
     position: sticky;
     top: 0;
     z-index: 999;
@@ -17,6 +16,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+   
 }
 .rightsidebar{
     height: 90vh;
@@ -52,6 +52,11 @@ header .facebook2nd .active{
 header .facebook2nd .active i{
     color: rgb(15,144,243);
 }
+@media only screen and (min-width: 769px) {
+    header .facebook2nd  i{
+        font-size: 23px;
+    }
+}
 .input[type=search]{
     height: 30px;
     border: 1px solid rgb(255, 255, 255);
@@ -66,23 +71,15 @@ header .facebook2nd .active i{
     font-size: 12px;
 }
 .story1text{
-    font-size: 12px;
-    color: white;
-    margin-top: 38px;
-    margin-left: 3px;
-    line-height: 1;
-    font-weight: bold;
-    justify-content: center;
-}
-.story3text{
     font-size: 14px;
     color: white;
-    margin-top: 44px;
+    margin-top: 42px;
     margin-left: 3px;
     line-height: 1;
     font-weight: bold;
     justify-content: center;
 }
+
 .contentheadertext{
     font-weight: bold;
     font-size: 13px;
@@ -109,6 +106,15 @@ header .facebook2nd .active i{
 .hb{
     color: black;
 }
+main .hb img{
+    width: 35px;
+}
+header .hb img{
+    width: 25px;
+}
+.hb2{
+    color: rgb(69,189,98);
+}
 .card-footer, .footer{
     height: 40px;
 }
@@ -117,19 +123,52 @@ header .facebook2nd .active i{
 }
 .headerright a{
     background-color: rgb(228,230,235);
+    
+}
+header .headerright .headerrightdropdown .dropdown-menu a{
+    background-color: white;
+}
+.headerright .headerrightdropdown .dropdown-menu a:hover{
+    background-color: rgb(230,235,235);
+    cursor: pointer;
+    border-radius: 5px;
 }
 .headerright a:hover{
-    background-color: rgb(101,103,107);
+    background-color: rgb(241,241,241);
     cursor: pointer;
 }
 header .navbar form input{
     background-color: rgb(240,242,245);
 }
 .headerright i{
+    font-size: 18px;
+}
+.headerright img{
+    max-width: 40px;
+}
+.headerright .headerrightdropdown .dropdownshadow{
+    box-shadow: 0 2px 8px 4px rgb(225,225,225);
+}
+.headerright .headerrightdropdown .dropdownshadow h6{
+    color: rgb(77,150,245);
+}
+.headerright .headerrightdropdown .dropdownshadow img{
+    width: 35px;
+}
+.headerright .headerrightdropdown .dropdown-menu i{
+    background-color: rgb(241,241,241);
     font-size: 20px;
 }
+.headerright .headerrightdropdown .dropdown-menu a{
+    font-size: 15px;
+    font-weight: 600;
+}
+.headerright .headerrightdropdown .dropdown-menu{
+    width: 350px;
+    height: 450px;
+}
 .leftsidebar a img{
-    max-width: 40px;
+    max-width: 35px;
 }
 .leftsidebar a, .rightsidebar a{
     color: black;
@@ -146,6 +185,7 @@ header .navbar form input{
 }
 .leftsidebar .dropdown{
     color: rgb(216,218,223);
+    font-size: 30px;
 }
 .rightsidebar h6{
     font-weight: 600;
@@ -163,13 +203,16 @@ header .navbar form input{
 .rightsidebar img{
     max-width: 30px;
 }
+.rightsidebar{
+    max-width: 350px;
+}
 main .searchbarlg img{
     max-width: 40px;
 }
 main .searchbarlg a{
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
 }
 main .searchbarlg .fa-video{
@@ -182,11 +225,12 @@ main .searchbarlg .fa-face-smile{
     color: rgb(247,185,40);
 }
 main .searchbarlg form input:hover, main .searchbarlg .row a:hover{
-    background-color: rgb(216,218,223);
+    background-color: rgb(228,230,233);
     border-radius: 5px;
 }
 main .searchbarlg form input{
     background-color: rgb(240,242,245);
+    height: 40px;
 }
 main .headerstory .active{
     font-weight: 600;
@@ -194,6 +238,9 @@ main .headerstory .active{
 main .headerstory .nonactive{
     font-weight: 600;
     color: rgb(96,98,102);
+}
+.main{
+    max-width: 680px;
 }
 .postcontent img{
     cursor: pointer;
@@ -212,6 +259,9 @@ main .headerstory .nonactive{
 }
 .leftsidebar i{
     font-size: 25px;
+}
+.leftsidebar{
+    max-width: 350px;
 }
 .smheaderdropdown a i{
     background-color: white;
